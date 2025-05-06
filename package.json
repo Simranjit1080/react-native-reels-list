@@ -1,6 +1,6 @@
 {
   "name": "react-native-reels-list",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Reels list component for React Native",
   "main": "index.ts",
   "scripts": {},
