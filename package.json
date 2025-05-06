@@ -14,7 +14,7 @@
     "expo-av": "~15.0.1",
     "@react-native-community/slider": "4.5.5",
     "@react-navigation/native": "^6.0.2",
-    "react-native-gesture-handler": "~2.20.2"
+    "react-native-gesture-handler": "~2.25.0"
   },
   "peerDependencies": {
     "react": "*",
