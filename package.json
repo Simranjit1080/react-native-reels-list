@@ -3,7 +3,15 @@
   "version": "1.0.7",
   "description": "Reels list component for React Native",
   "main": "index.ts",
-  "scripts": {},
+  "scripts": {
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:major": "npm version major",
+    "release:patch": "npm run version:patch && git push origin master --tags",
+    "release:minor": "npm run version:minor && git push origin master --tags",
+    "release:major": "npm run version:major && git push origin master --tags",
+    "prepublishOnly": "echo 'Ready to publish react-native-reels-list'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Simranjit1080/react-native-reels-list.git"
